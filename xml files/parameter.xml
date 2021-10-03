@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<!-- at a time parallel test case run using by parallel="methods" -->
+	<!-- in this concept reduce the thread count why means count use to execute -->
+
+	<test thread-count="2" name="Test" parallel="methods">
+
+		<!-- pass the parameter -->
+
+		<parameter name="name" value="jagadeesh"></parameter>
+		<parameter name="pass" value="Jaga@007"></parameter>
+
+		<classes>
+			<class name="org.features.Parameter_Concept" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

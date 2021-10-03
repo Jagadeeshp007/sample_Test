@@ -1,0 +1,4 @@
+2021-10-01 21:58:54 INFO  Log_File:19 - Information Msg
+2021-10-01 21:58:54 WARN  Log_File:21 - Warnning Msg
+2021-10-01 21:58:54 ERROR Log_File:23 - error Msg
+2021-10-01 21:58:54 FATAL Log_File:25 - Danger Msg
